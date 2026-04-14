@@ -1,10 +1,16 @@
 import { createMDX } from 'fumadocs-mdx/next';
 
 const withMDX = createMDX();
+const isGitHubPages = process.env.GITHUB_PAGES === 'true';
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
+const basePath = isGitHubPages && repoName ? `/${repoName}` : '';
 
 /** @type {import('next').NextConfig} */
 const config = {
     reactStrictMode: true,
+    output: isGitHubPages ? 'export' : undefined,
+    basePath,
+    assetPrefix: basePath || undefined,
     images: {
         remotePatterns: [
             {

@@ -2,8 +2,16 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export const dynamic = 'force-static';
 
+const isStaticExport = process.env.GITHUB_PAGES === 'true';
 
 export async function GET(request: NextRequest) {
+  if (isStaticExport) {
+    return NextResponse.json(
+      { error: 'Download API is unavailable in static export builds' },
+      { status: 501 }
+    );
+  }
+
   const searchParams = request.nextUrl.searchParams;
   const spaceId = searchParams.get('space_id');
   const platform = searchParams.get('platform');
@@ -40,7 +48,6 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    // Return the download URL
     return NextResponse.json({ downloadUrl: data.files[0].url });
   } catch (error) {
     console.error('Download API error:', error);

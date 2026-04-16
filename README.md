@@ -1,6 +1,6 @@
 # FancyDocs
 
-Official documentation for all plugins and web services developed by FancyInnovations.
+Official documentation for all plugins and web services developed by EzInnovations.
 
 # Getting Started
 

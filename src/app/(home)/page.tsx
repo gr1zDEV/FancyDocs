@@ -63,13 +63,13 @@ export default function HomePage() {
           <div className="hero-logo">
             <Image
               src="/common/FancyInnovations.png"
-              alt="FancyInnovations Logo"
+              alt="EzInnovations Logo"
               width={200}
               height={200}
               priority
             />
           </div>
-          <h1 className="hero-title">FancyInnovations</h1>
+          <h1 className="hero-title">EzInnovations</h1>
           <p className="hero-subtitle">✨ Makes everything more <b>fancy</b> ✨</p>
           <div className="hero-features">
             <span className="feature-tag">Simple</span>

@@ -1,0 +1,6 @@
+{
+  "title": "EzDonutDiscord",
+  "icon": "",
+  "defaultOpen": true,
+  "pages": ["getting-started", "commands", "configuration", "placeholders", "faq"]
+}

@@ -93,6 +93,24 @@ export default function HomePage() {
               <div className="plugin-card">
                 <div className="card-icon">
                   <Image
+                      src="/logos-and-banners/ezdonutdiscord-logo.svg"
+                      alt="EzDonutDiscord Logo"
+                      width={80}
+                      height={80}
+                  />
+                </div>
+                <h3 className="card-title">EzDonutDiscord</h3>
+                <p className="card-description">Add a polished clickable Discord invite command for your server</p>
+                <div className="card-buttons">
+                  <a href="https://github.com/Ez-Minecraft/EzDonutDiscord/releases" target="_blank" rel="noopener noreferrer"
+                     className="btn-download">Download</a>
+                  <Link href="/docs/minecraft-plugins/ezdonutdiscord" className="btn-docs">Documentation</Link>
+                </div>
+              </div>
+
+              <div className="plugin-card">
+                <div className="card-icon">
+                  <Image
                       src="/logos-and-banners/fancynpcs-logo.png"
                       alt="FancyNpcs Logo"
                       width={80}

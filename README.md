@@ -1,5 +1,5 @@
 # FancyDocs
-
+https://gr1zdev.github.io/FancyDocs/
 Official documentation for all plugins and web services developed by EzInnovations.
 
 # Getting Started

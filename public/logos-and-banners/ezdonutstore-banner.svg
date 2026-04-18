@@ -1,0 +1,8 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="420" rx="24" fill="#181825"/>
+  <circle cx="240" cy="210" r="130" fill="#F7B64B"/>
+  <circle cx="240" cy="210" r="72" fill="#181825"/>
+  <path d="M112 292C136 250 182 226 240 226C298 226 344 250 368 292" stroke="#5865F2" stroke-width="20" stroke-linecap="round"/>
+  <text x="450" y="185" fill="#FFFFFF" font-size="78" font-family="Arial, sans-serif" font-weight="700">EzDonutStore</text>
+  <text x="450" y="248" fill="#C7D2FE" font-size="34" font-family="Arial, sans-serif">A polished /store link experience for Paper &amp; Folia</text>
+</svg>

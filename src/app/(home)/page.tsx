@@ -111,6 +111,24 @@ export default function HomePage() {
               <div className="plugin-card">
                 <div className="card-icon">
                   <Image
+                      src="/logos-and-banners/ezdonutstore-banner.svg"
+                      alt="EzDonutStore Logo"
+                      width={80}
+                      height={80}
+                  />
+                </div>
+                <h3 className="card-title">EzDonutStore</h3>
+                <p className="card-description">Give players a clean /store command with a clickable web store link</p>
+                <div className="card-buttons">
+                  <a href="https://github.com/Ez-Minecraft/EzDonutStore/releases" target="_blank" rel="noopener noreferrer"
+                     className="btn-download">Download</a>
+                  <Link href="/docs/minecraft-plugins/ezdonutstore" className="btn-docs">Documentation</Link>
+                </div>
+              </div>
+
+              <div className="plugin-card">
+                <div className="card-icon">
+                  <Image
                       src="/logos-and-banners/fancynpcs-logo.png"
                       alt="FancyNpcs Logo"
                       width={80}
